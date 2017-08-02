@@ -8,20 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		923506911F31BC7B0078938F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923506901F31BC7B0078938F /* AppDelegate.swift */; };
-		923506931F31BC7B0078938F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923506921F31BC7B0078938F /* ViewController.swift */; };
+		923506931F31BC7B0078938F /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923506921F31BC7B0078938F /* MainViewController.swift */; };
 		923506961F31BC7B0078938F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 923506941F31BC7B0078938F /* Main.storyboard */; };
 		923506981F31BC7B0078938F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 923506971F31BC7B0078938F /* Assets.xcassets */; };
 		9235069B1F31BC7B0078938F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 923506991F31BC7B0078938F /* LaunchScreen.storyboard */; };
+		923506A31F31BCBA0078938F /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923506A21F31BCBA0078938F /* MainViewModel.swift */; };
+		923506A51F31C39C0078938F /* ChildCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923506A41F31C39C0078938F /* ChildCellViewModel.swift */; };
+		923506A71F31C48B0078938F /* ChildCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923506A61F31C48B0078938F /* ChildCellView.swift */; };
+		CFA8487BC4012069C753200D /* Pods_RxParentChildCommunication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 956077EC3D023E5E5BAEE46D /* Pods_RxParentChildCommunication.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2DC1AF2610F9E7AB3E0BC519 /* Pods-RxParentChildCommunication.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxParentChildCommunication.release.xcconfig"; path = "Pods/Target Support Files/Pods-RxParentChildCommunication/Pods-RxParentChildCommunication.release.xcconfig"; sourceTree = "<group>"; };
 		9235068D1F31BC7B0078938F /* RxParentChildCommunication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxParentChildCommunication.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		923506901F31BC7B0078938F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		923506921F31BC7B0078938F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		923506921F31BC7B0078938F /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		923506951F31BC7B0078938F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		923506971F31BC7B0078938F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9235069A1F31BC7B0078938F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9235069C1F31BC7B0078938F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		923506A21F31BCBA0078938F /* MainViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		923506A41F31C39C0078938F /* ChildCellViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChildCellViewModel.swift; sourceTree = "<group>"; };
+		923506A61F31C48B0078938F /* ChildCellView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChildCellView.swift; sourceTree = "<group>"; };
+		956077EC3D023E5E5BAEE46D /* Pods_RxParentChildCommunication.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxParentChildCommunication.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9854C2FAA7B7CD5E6AAFCA1 /* Pods-RxParentChildCommunication.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxParentChildCommunication.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RxParentChildCommunication/Pods-RxParentChildCommunication.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFA8487BC4012069C753200D /* Pods_RxParentChildCommunication.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +51,8 @@
 			children = (
 				9235068F1F31BC7B0078938F /* RxParentChildCommunication */,
 				9235068E1F31BC7B0078938F /* Products */,
+				F85E0C672A49329257987A34 /* Pods */,
+				CA6D0CE3B1C2465E40456F01 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +68,33 @@
 			isa = PBXGroup;
 			children = (
 				923506901F31BC7B0078938F /* AppDelegate.swift */,
-				923506921F31BC7B0078938F /* ViewController.swift */,
+				923506921F31BC7B0078938F /* MainViewController.swift */,
 				923506941F31BC7B0078938F /* Main.storyboard */,
 				923506971F31BC7B0078938F /* Assets.xcassets */,
 				923506991F31BC7B0078938F /* LaunchScreen.storyboard */,
 				9235069C1F31BC7B0078938F /* Info.plist */,
+				923506A21F31BCBA0078938F /* MainViewModel.swift */,
+				923506A41F31C39C0078938F /* ChildCellViewModel.swift */,
+				923506A61F31C48B0078938F /* ChildCellView.swift */,
 			);
 			path = RxParentChildCommunication;
+			sourceTree = "<group>";
+		};
+		CA6D0CE3B1C2465E40456F01 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				956077EC3D023E5E5BAEE46D /* Pods_RxParentChildCommunication.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F85E0C672A49329257987A34 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D9854C2FAA7B7CD5E6AAFCA1 /* Pods-RxParentChildCommunication.debug.xcconfig */,
+				2DC1AF2610F9E7AB3E0BC519 /* Pods-RxParentChildCommunication.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +104,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9235069F1F31BC7B0078938F /* Build configuration list for PBXNativeTarget "RxParentChildCommunication" */;
 			buildPhases = (
+				F59A0EC6761E89D47D5F5B5D /* [CP] Check Pods Manifest.lock */,
 				923506891F31BC7B0078938F /* Sources */,
 				9235068A1F31BC7B0078938F /* Frameworks */,
 				9235068B1F31BC7B0078938F /* Resources */,
+				C6D80C48FB79E7A4002D6E28 /* [CP] Embed Pods Frameworks */,
+				FF96D939007C46D28DA55DFF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -132,13 +168,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		C6D80C48FB79E7A4002D6E28 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RxParentChildCommunication/Pods-RxParentChildCommunication-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F59A0EC6761E89D47D5F5B5D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FF96D939007C46D28DA55DFF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RxParentChildCommunication/Pods-RxParentChildCommunication-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		923506891F31BC7B0078938F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				923506931F31BC7B0078938F /* ViewController.swift in Sources */,
+				923506A71F31C48B0078938F /* ChildCellView.swift in Sources */,
+				923506931F31BC7B0078938F /* MainViewController.swift in Sources */,
 				923506911F31BC7B0078938F /* AppDelegate.swift in Sources */,
+				923506A31F31BCBA0078938F /* MainViewModel.swift in Sources */,
+				923506A51F31C39C0078938F /* ChildCellViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +346,7 @@
 		};
 		923506A01F31BC7B0078938F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9854C2FAA7B7CD5E6AAFCA1 /* Pods-RxParentChildCommunication.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = WZ8GG366SX;
@@ -272,6 +360,7 @@
 		};
 		923506A11F31BC7B0078938F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DC1AF2610F9E7AB3E0BC519 /* Pods-RxParentChildCommunication.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = WZ8GG366SX;
@@ -302,6 +391,7 @@
 				923506A11F31BC7B0078938F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

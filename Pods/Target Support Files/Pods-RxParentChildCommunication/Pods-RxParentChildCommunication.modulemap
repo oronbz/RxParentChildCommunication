@@ -1,0 +1,6 @@
+framework module Pods_RxParentChildCommunication {
+  umbrella header "Pods-RxParentChildCommunication-umbrella.h"
+
+  export *
+  module * { export * }
+}

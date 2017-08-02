@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Pods-RxParentChildCommunication.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>RxCocoa.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>RxDataSources.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>RxSwift.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>680131907ACF82FB80C22685039D0B80</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>7AFCC9718EB7114EB6770C6FD1CA8080</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>85F56367A25E5095E59D39AA54033CE6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>ACCFF87DDF82701119057AA369858382</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
