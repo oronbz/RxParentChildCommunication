@@ -17,7 +17,7 @@ class ChildCellViewModel {
     let buttonDidTap: PublishSubject<Void> = .init()
     let text: String
     
-    let disposeBag = DisposeBag()
+    private let disposeBag = DisposeBag()
     
     init(text: String, delegate: ChildCellDelegate) {
         self.text = text

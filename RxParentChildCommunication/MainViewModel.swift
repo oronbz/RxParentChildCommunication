@@ -13,12 +13,12 @@ typealias ChildSection = SectionModel<String, ChildCellViewModel>
 
 class MainViewModel: ChildCellDelegate {
     
-    private (set) var sections: Observable<[ChildSection]> = .empty()
-    
     // CHILD VIEW MODEL DELEGATE
     let childButtonDidTap: PublishSubject<String> = .init()
     
-    let disposeBag = DisposeBag()
+    private (set) var sections: Observable<[ChildSection]> = .empty()
+    
+    private let disposeBag = DisposeBag()
     
     init() {
         
